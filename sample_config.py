@@ -7,7 +7,7 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1491444696:AAGA9frENUfhUZcRgPGQlHqj5_vHzHxy-Qw")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 2882240))
-    API_HASH = os.environ.get("API_HASH", 9fdd5d0301d5ac2172a693d085af1a8c))
+    API_HASH = os.environ.get("API_HASH", "9fdd5d0301d5ac2172a693d085af1a8c")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1216142595").split())
